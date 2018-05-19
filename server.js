@@ -3,7 +3,11 @@ const server = jsonServer.create()
 const router = jsonServer.router('dbCompiled.json')
 const port = process.env.PORT || 3000
 const middlewares = jsonServer.defaults()
+<<<<<<< HEAD
 // const db = require('./db');
+=======
+const db = require('./db');
+>>>>>>> b208e5e347f655ae7ab189cc24176d62d49f520d
 const dbFolder = './api/';
 const fs = require('fs');
 
